@@ -1,0 +1,35 @@
+/* RoundPanel.css */
+.panel-container {
+  width: 300px;
+  height: 400px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 120px;
+  padding: 25px;
+  background: linear-gradient(to bottom right, rgb(128, 255, 128), rgb(192, 192, 192));
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin: 40px 0;
+}
+

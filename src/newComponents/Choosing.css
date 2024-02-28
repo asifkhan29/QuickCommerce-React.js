@@ -1,0 +1,26 @@
+.background-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #53c3e9, #e74c3c);
+  position: relative;
+  
+}
+
+.header-container {
+  position: absolute;
+  top: 40px; /* Adjust the top position */
+  right: 210px; /* Adjust the right position */
+  padding: 85px;
+  
+  /* Add more header-specific styles */
+}
+
+/* Add specific styles for header content */
+.header-container h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+

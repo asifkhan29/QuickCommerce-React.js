@@ -1,0 +1,22 @@
+.upper-image-container {
+  display: flex;
+  justify-content: flex-start; /* Align to the left */
+  align-items: center;
+  position: absolute;
+  top: 50%; /* Position vertically at the middle */
+  left: 0; /* Position at the left edge */
+  transform: translateY(-50%); /* Adjust to vertically center the image */
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.round-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
